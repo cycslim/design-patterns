@@ -1,6 +1,6 @@
 package com.cimu.strategy.template;
 
-//封装策略，屏蔽高层模块对策略、算法的直接访问，屏蔽可能存在的策略变化
+//上线文对象 封装策略，屏蔽高层模块对策略、算法的直接访问，屏蔽可能存在的策略变化
 public class Context {
 
     private Strategy strategy = null;

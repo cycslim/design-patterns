@@ -8,7 +8,8 @@ package com.cimu.strategy.template;
  */
 public class Start {
     public static void main(String[] args) {
-        Context context = new Context(new StrategyA());
+        Context context = new Context(new StrategyB());
         context.doStrategy();
+
     }
 }
